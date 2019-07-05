@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-#now=`date +"%Y-%m-%d" -d "02/01/2019"`
+#usage: $ sh main.sh 10/01/2019 11/01/2019
+
 now=`date +"%Y-%m-%d" -d $1`
 end=`date +"%Y-%m-%d" -d $2`
 
